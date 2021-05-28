@@ -19,3 +19,40 @@
 .active {
     color: #F98012;
 }
+
+/* section contact style */
+.section-contact-bg {
+    background-color: #f8f7f7;
+    padding: 39px 0 69px 0;
+}
+.container-contact {
+    width: 1178px;
+    margin: 0 auto;
+}
+.map {
+    width: 848px;
+    height: 464px;
+}
+.left-block-contact {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 70px;
+}
+
+.right-block-contact {
+    display: inline-block;
+    vertical-align: top;
+}
+.contact-title {
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: rgb(128, 122, 115);
+    margin-bottom: 20px;
+}
+.contact-text {
+    margin-top: 10px;
+}
+.text-addres {
+    color: #808080;
+}
