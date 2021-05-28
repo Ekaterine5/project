@@ -1,0 +1,21 @@
+/* header */
+.logo {
+    display: inline-block;
+    margin-right: 50px;
+    vertical-align: middle;
+}
+.navigation {
+    display: inline-block;
+    vertical-align: middle;
+}
+.nav-li {
+    display: inline-block;
+    margin-left: 22px;
+}
+.nav-a {
+    color: #808080;
+    font-size: 22px;
+}
+.active {
+    color: #F98012;
+}
