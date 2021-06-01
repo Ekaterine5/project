@@ -5,34 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MIA Online Cources</title>
+    <script src="https://kit.fontawesome.com/6de6aa5275.js" crossorigin="anonymous"></script>
     <link rel="icon" href="images/tick.png" type="image/gif" sizes="16x16">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <a class="logo" href="index.html">
-            <img src="images/logo.png" alt="logo">
-        </a>
-        <nav class="navigation">
-            <ul>
-                <li class="nav-li">
-                    <a class="nav-a" href="index.html" target="_blank">Home</a>
-                </li>
-                <li class="nav-li">
-                    <a class="nav-a" href="about.html" target="_blank">About us</a>
-                </li>
-                <li class="nav-li">
-                    <a class="nav-a active" href="login.html">Sign in</a>
-                </li>
-                <li class="nav-li">
-                    <a class="nav-a" href="register.html" target="_blank">Register Now</a>
-                </li>
-                <li class="nav-li">
-                    <a class="nav-a" href="contact.html" target="_blank">Contact us</a>
-                </li>
+    <header class="header-wraper">
+        <div class="wrapper">
+            <ul class="logo">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="logo">
+                </a>
             </ul>
-        </nav>
+            <ul id="menu" class="menu-ul">
+                <li><a class="nav-a" href="index.html" target="_blank">Home</a></li>
+                <li><a class="nav-a" href="about.html" target="_blank">About us</a></li>
+                <li><a class="nav-a active" href="login.html" target="_blank">Sign in</a></li>
+                <li><a class="nav-a" href="register.html" target="_blank">Register Now</a></li>
+                <li><a class="nav-a" href="contact.html" target="_blank">Contact us</a></li>
+            </ul>
+            <ul id="socicon" class="social-icons">
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+            <div id="burger-menu" class="burger-icon">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>       
     </header>
 
 
@@ -40,6 +41,9 @@
         <img src="images/fb.svg" alt="fb-icon">
         <img src="images/youtube.svg" alt="youtube-icon">
     </footer>
+    <!-- Js Link -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/script.js"></script>
     
 </body>
 </html>
