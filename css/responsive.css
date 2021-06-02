@@ -60,3 +60,38 @@
               align-items: center;
   }
 }
+/* about us */
+@media (max-width: 1024px) {
+  .container {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+  }
+  .text-wraper,
+  .right-block {
+      margin-top: 30px;
+  }  
+}
+
+
+@media (max-width: 570px) {
+  .image-wraper {
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+  }
+  .right-image {
+      margin-top: 15px;
+  }
+}
+@media (max-width: 1200px){
+  .block-1 {
+      margin-top: 30px;
+} 
+}
