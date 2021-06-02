@@ -221,10 +221,13 @@ p {
 .footer-img {
     position: relative;
 }
-.footer-img-box{
+/* .footer-img-box{
     width: 100%;
     position: absolute;
     z-index: 2;
+} */
+.footer-box {
+    width: 100%;
 }
 .footer-title {
     position: absolute;
@@ -251,9 +254,18 @@ p {
     margin-right: 180px; */
     color: gray;
     font-size: 22px;
-   
-
 }
+
+.contact-us::after {
+	content: " ";
+	width: 90px;
+	height: 4px;
+	background-color: #FF7A00;
+	display: inline-block;
+	margin-left: 50px;
+    
+
+} 
 
 .copyright {
 	position: fixed;
@@ -367,12 +379,9 @@ p {
             flex-direction: column;
 }
 .image2-wraper-about {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
+     display: flex;
+  
         justify-content: space-around;
-    -ms-flex-wrap: wrap;
         flex-wrap: wrap;
         margin-top: 80px;
         margin-bottom: 60px;
