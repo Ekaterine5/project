@@ -484,9 +484,10 @@ p {
     border: none;
 }
 .form-text {
-    width: 331px;
-    margin-left: 100px;
+    width: 100%;
+    /* margin-left: 100px; */
     margin-bottom: 30px;
+    
     
     
 }
@@ -499,6 +500,8 @@ p {
     font-weight: bold;
     font-size: 30px;
     margin-top: 15px;
+    text-align: center;
+    
     
     
 }
