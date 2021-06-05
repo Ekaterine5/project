@@ -31,7 +31,7 @@ ul{
     display: none;
 }
 
-/* section-1 */
+/* section-1-home */
 .cover {
     position: relative;
 }
@@ -57,7 +57,7 @@ p {
     margin-top: 15px;
 }
 
-/* section-2 */
+/* section-2-home */
 .section2 {
     margin: 0 auto;
     margin-top: 800px;    
@@ -138,7 +138,7 @@ p {
             justify-content: center;
               
 }
-.prise {
+.course-icon {
     /* margin-top: 10px; */
     color:grey;
     font-size: 22px;
@@ -530,4 +530,53 @@ p {
 
 .block-1-2 {
     margin-top: 50px;
+}
+/* registration form */
+.r-section {
+    width: 100%;
+}
+.r-title {
+    margin-left: 170px;
+}
+.r-title h1 {
+    font-size: 27px;
+    color: rgb(69, 118, 209);
+    font-weight: bold;
+}
+
+.R-form {
+    padding: 50px 0;
+    margin-left: 170px;   
+}
+.R-form h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: rgb(69, 118, 209);
+}
+.r-div {
+    margin-bottom: 25px;
+    
+}
+
+
+.r-input-block {
+    max-width: 900px;
+    width: 100%;
+    height: 40px;
+}
+.r-input-block-1 {
+    max-width: 900px;
+    width: 100%;
+    height: 40px;
+   
+}
+
+.r-submit {
+    width: 150px;
+    height: 30px;
+    background-color: rgb(138, 174, 240);
+    font-size: 15px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 15px;
 }
