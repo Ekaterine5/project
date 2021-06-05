@@ -573,10 +573,10 @@ p {
 
 .r-submit {
     width: 150px;
-    height: 30px;
+    height: 40px;
     background-color: rgb(138, 174, 240);
-    font-size: 15px;
-    margin-top: 30px;
+    font-size: 20px;
+    margin-top: 40px;
     border: none;
     border-radius: 15px;
 }
