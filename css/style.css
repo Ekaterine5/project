@@ -34,9 +34,11 @@ ul{
 /* section-1-home */
 .cover {
     position: relative;
+    
 }
 .cover-img {
     width: 100%;
+    /* height: 462px; */
     position: absolute;
     z-index: 2;
 }
@@ -60,7 +62,7 @@ p {
 /* section-2-home */
 .section2 {
     margin: 0 auto;
-    margin-top: 800px;    
+    margin-top: 600px;    
     max-width: 1447px;
     width: 100%;
 }
