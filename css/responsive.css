@@ -1,5 +1,5 @@
 /* header */
-@media (max-width: 906px){
+@media (max-width: 929px){
     .wrapper, 
     ul{
       display: block;
@@ -147,8 +147,8 @@
 }
 
 
-/* about us */
-@media (max-width: 1024px) {
+/* about us - section-3 */
+@media (max-width: 798px) {
   .container {
       flex-direction: column;
       align-items: center;
