@@ -46,17 +46,27 @@ ul{
     position: absolute;
     color: #FFFFFF;
     z-index: 4;
-    margin-top: 50px;
-    margin-left: 80px;
+    margin-top: 70px;
+    margin-left: 90px;
     width: 50%;
 }
 .cover-text {
-    font-size: 40px;
-    margin-bottom: 40px;
+    font-size: 80px;
+    margin-bottom: 80px;
+    /* fonts */
+    font-family: 'Staatliches', cursive; 
+    letter-spacing: 2px;
+    
 }
-p {
-    font-size: 20px;
+.cover-title p {
+    font-size: 40px;
     margin-top: 15px;
+    font-family: 'Crimson Text';
+    letter-spacing: 3px;
+    text-indent: 50px;
+    /* line-height: 80px; */
+    
+    
 }
 
 /* section-2-home */
@@ -105,6 +115,8 @@ p {
     margin-left: 36px;
     margin-bottom: 30px;
     width: 370px;
+    line-height: 25px;
+    
 }
 
 .box-1-text h4 {
@@ -115,6 +127,7 @@ p {
 }
 .box-1-text p {
     font-size: 16px;
+    font-family: 'Roboto', sans-serif;
 }
 .button {
     display: -webkit-box;
