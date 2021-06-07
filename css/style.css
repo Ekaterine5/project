@@ -187,22 +187,22 @@ ul{
     background-color: #818fa1;
     width: 200px;
     height: 68px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     color: #FFFFFF;
     font-size: 22px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    align-items: center;
+    justify-content: center;
     margin: 0 auto;
     margin-bottom: 50px;
     margin-top: 50px;
+    border-radius: 10px;
+    /* animation */
+    transition: all 0.5s linear 0.3s;
 }
-
+.button-2:hover {
+    background-color: #fd7a00;
+    color: #FFFFFF;
+}
 
 
 
@@ -376,8 +376,12 @@ ul{
  } */
  .about-img-about {
      width: 100%;
+     opacity: 0.6;
+     transition: all 0.5s linear 0.3s;
  }
- 
+ .about-img-about:hover{
+    opacity: 1;
+}
 
  .container2-about {
     max-width: 1366px;
