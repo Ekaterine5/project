@@ -174,6 +174,25 @@
     width: 100%;  
 }
 }
+/* logn in */
+@media (max-width: 768px) {
+  .video-container {
+  flex-direction: column;
+  align-items: center;
+  }
+  .s-wraper {
+    margin: 0 auto;
+    margin-bottom: 50px;
+    
+  }
+  .video-title {
+    text-align: center;
+  }
+  .r-title {
+    margin-left: 50px;
+    margin-top: 60px;
+}
+}
 
 
 

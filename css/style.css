@@ -638,7 +638,7 @@ ul{
 }
 .sing-in-title {
     text-align: center;
-    font-size: 25px;
+    font-size: 22px;
     margin-top: 50px;
     
     margin-bottom: 50px;
@@ -737,10 +737,14 @@ ul{
     margin: 0 auto;
     display: inline-flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 .s-form-left-block {
     max-width: 590px;
     width: 100%;
+    margin-left:20px;
+    margin-right: 20px;
+    
 }
 .video-wraper {
     max-width: 590px;
@@ -756,4 +760,9 @@ ul{
     height: 5px;
     background-color: rgb(230, 228, 228);
     /* margin-top: 50px; */
+}
+.video-title {
+    font-size: 22px;
+    color: rgb(69, 118, 209);
+    font-weight: bold;
 }
