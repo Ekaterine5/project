@@ -667,8 +667,28 @@ ul{
 }
 
 .footer-wraper1 {
-    margin-top: 81px;
+    margin-top: 50px;
     margin-bottom: 140px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.footer-list1 {
+    display: flex;
+    flex-direction: column;
+}
+.list-title-footer {
+    color: #525050;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.list-test-footer {
+    font-size: 15px;
+    color: #787878;
+    margin-bottom: 10px;
 }
 
 /* 
