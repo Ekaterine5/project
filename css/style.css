@@ -531,6 +531,7 @@ ul{
 /* registration form */
 .reg-section {
     width: 100%;
+    /* flex-wrap: wrap; */
 }
 .reg-title {
     margin-left: 170px;

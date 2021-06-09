@@ -254,8 +254,15 @@
 }
 } 
 
+/* register */
 
-
+@media (max-width: 1202px) {
+  .reg-title,
+  .Reg-form {
+      margin-left: 50px; 
+      margin-right: 20px;
+}
+} 
 
 /* about us - section-3 */
 /* @media (max-width: 798px) {
