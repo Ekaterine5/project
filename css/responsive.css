@@ -39,21 +39,21 @@
   @media (max-width: 1040px) {
     .cover-text {
       font-size: 32px;
-  }
+    }
   .cover-text-2 {
       font-size: 20px;
       margin-top: 60px;
-  }
+    }
   .cover-text-3 {
       font-size: 20px; 
       margin-top: 90px;
-  }
+    }
   } 
   @media (max-width: 740px) {
     .cover-text {
       font-size: 22px;
       top: 20px;
-  }
+    }
   .cover-text-2 {
       font-size: 15px;
       margin-top: 10px;
@@ -61,7 +61,7 @@
   .cover-text-3 {
       font-size: 15px; 
       margin-top: 30px;
-  }
+    }
   }
    
   /* about us section-2 */
@@ -87,7 +87,7 @@
   .button-about {
     font-size: 19px;
     margin-top: 15px;
-}
+  }
 }
 @media (max-width: 1370px) {
   .title-text-about {
@@ -104,7 +104,7 @@
   .button-about {
     font-size: 19px;
     margin-top: 15px;
-}
+  }
 }
 @media (max-width: 1250px) {
   .title-text-about {
@@ -142,15 +142,14 @@
   }
 }  
 @media (max-width: 1025px) {
-  
   .text-1-about {
     font-size: 12px;
   }
 }  
 @media (max-width: 939px) {
   .container-about {
-  flex-direction: column;
-  align-items: center;
+    flex-direction: column;
+    align-items: center;
   }
   .title-text-about {
     margin-bottom: 15px;
@@ -172,7 +171,7 @@
 .left-block-about,
 .right-block-about {
     width: 100%;  
-}
+  }
 }
 /* logn in */
 @media (max-width: 768px) {
@@ -191,7 +190,7 @@
   .r-title {
     margin-left: 50px;
     margin-top: 60px;
-}
+  }
 }
 
 /* home */
@@ -199,14 +198,13 @@
 @media (max-width: 1378px) {
   .box-1-text-block {
    height: 210px;  
-}
+  }
 } 
 @media (max-width: 1212px) {
   .box-1-text-block {
    height: 230px;  
-}
+  }
 } 
-
 
 @media (max-width: 1024px) {
   .box-1-text-block {
@@ -217,20 +215,17 @@
  }
 } 
 @media (max-width: 907px) {
-  
   .block-1,
   .block-2 {
     flex-direction: column;
     align-items: center;
-}
+  }
 .box-1-text-block {
-     
   height: 180px;  
 }
 .box-1-text-block-2 {
   height: 150px;
 }
-
 .button {
   display: flex;
   margin-left: 25px;
@@ -283,7 +278,6 @@
 }
 }
 
-
 @media (max-width: 480px) {
   .map {
     width: 214px;
@@ -295,12 +289,7 @@
   
 .textarea-block {
     width: 450px;
-    /* height: 288px;
-    border: none;
-    resize: none;
-    background-color: lightgray; 
-    padding: 30px; */
-} 
+  } 
 }
 
 @media (max-width: 957px) {

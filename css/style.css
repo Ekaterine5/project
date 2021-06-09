@@ -1,8 +1,6 @@
 /* header */
-
 .header-wraper{
     background: rgb(255, 255, 255);
-    /* padding: 2px 0; */
     position: relative;
     position: fixed;
     top: 0;
@@ -13,9 +11,7 @@ body {
     padding-top: 106px;
 }
 .wrapper{
-    /* max-width: 1370px; */
     width: 100%;
-    /* margin: 0 auto; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -30,7 +26,6 @@ a{
     color: #fd7a00;
     font-weight: bold;
 }
-
 ul{
     padding: 10px 0;
     display: flex;
@@ -43,14 +38,12 @@ ul{
 }
 
 /* section-1-home */
-
 .cover-text {
     position: absolute;
     top: 50px;
     color: #FFFFFF;
     font-size: 50px;
     margin-left: 30px;
-    /* fonts */
     font-family: 'Staatliches', cursive; 
     letter-spacing: 2px;
 }
@@ -61,7 +54,6 @@ ul{
     color: #FFFFFF;
     margin-top: 90px;
     margin-left: 30px;
-    /* margin-top: 50%; */
     font-size: 40px;
     font-family: 'Crimson Text';
     letter-spacing: 3px;
@@ -73,7 +65,6 @@ ul{
     color: #FFFFFF;
     margin-top: 140px;
     margin-left: 30px;
-    /* margin-top: 50%; */
     font-size: 40px;
     font-family: 'Crimson Text';
     letter-spacing: 3px;
@@ -86,16 +77,10 @@ ul{
     width: 100%;
 }
 
-
-
-
-
 /* section-2-home */
 .conteiner-home {
-    /* max-width: 1170px; */
     width: 100%;
     margin: 0 auto;
-
 }
 .section2 {
    width: 100%;
@@ -109,14 +94,6 @@ ul{
    line-height: 150px;
 }
 
-
-/* .text-top {
-   font-size: 20px;
-   text-align: center;
-   margin-top: 60px;
-   margin-bottom: 90px;
-} */
-
 .block-1,
 .block-2 {
     display: flex;
@@ -126,8 +103,6 @@ ul{
 .box-1 {
    max-width: 444px;
    width: 100%;
-   /* display: flex;
-   flex-direction: column; */
 }
 .image {
     width: 100%;
@@ -135,9 +110,7 @@ ul{
 }
 .box-1-text {
     padding: 25px;
-    line-height: 25px;
-    
-    
+    line-height: 25px;  
 }
 
 .box-1-text h4 {
@@ -152,14 +125,11 @@ ul{
     height: 100px;  
 }
 
-
 .button {
     display: flex;
     margin-left: 25px;
     margin-bottom: 15px;
     align-items: flex-start;
-    /* align-items: flex-end; */
-    
 }
 .button-text {
     background-color: #4682B4;
@@ -173,8 +143,7 @@ ul{
     justify-content: center;
     font-family: 'Roboto', sans-serif;
 }
-.course-icon {
-    
+.course-icon {  
     height: 35px;
     color:grey;
     font-size: 16px;
@@ -198,17 +167,12 @@ ul{
     margin-bottom: 50px;
     margin-top: 50px;
     border-radius: 10px;
-    /* animation */
     transition: all 0.5s linear 0.3s;
 }
 .button-2:hover {
     background-color: #fd7a00;
     color: #FFFFFF;
 }
-
-
-
-
 
 /* section contact style */
 .section-contact-bg {
@@ -220,7 +184,6 @@ ul{
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    /* flex-wrap: wrap; */
 }
 .map {
     width: 848px;
@@ -256,19 +219,13 @@ ul{
     width: 100%;
 }
 
-
-
 /* footer */
-
-
-
 .copyright {
 	position: fixed;
 	right: 142px;
 	bottom: 50px;
 	color: #A4A4A4;
     z-index: 6;
-
 }
 
 /* about us */
@@ -276,32 +233,25 @@ ul{
 .container-about {
     display: flex;
     justify-content: space-around;
-    /* max-width: 1366px; */
     width: 100%; 
     height: auto;
 }
-
-
 .left-block-about,
 .right-block-about {
     width: 50%;
     height: auto;
 }
-
 .title-text-about {
     margin-bottom: 25px;
     font-size: 25px;
     text-transform: uppercase;
     font-weight: bold;
-
 }
-
 .text-1-about {
     font-size: 18px;
     padding: 10px 0;
     text-align: justify;
     font-family: 'Lato', sans-serif;
-
 }
  .text-wraper-about {
     width: 100%;
@@ -320,13 +270,6 @@ ul{
     font-size: 19px;
     margin-top: 30px;
 }
-
- /* .right-block-about {
-     max-width: 536px;
-     width: 100%;
-     height: 461px;
-     margin-top: 90px;
- } */
  .about-img-about {
      width: 100%;
      opacity: 0.6;
@@ -348,8 +291,6 @@ ul{
     max-width: 360px;
     width: 100%;
     margin-left: 40px;
-    /* margin-top: 10px;
-    margin-bottom: 30px; */
 }
 
 .section-bg-about {
@@ -365,28 +306,18 @@ ul{
 .block-1-about {
     width: 260px;
     height: auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-            margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
 }
 .image2-wraper-about {
-     display: flex;
-  
-        justify-content: space-around;
-        flex-wrap: wrap;
-        margin-top: 60px;
-        margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    margin-bottom: 30px;
 }
 .picture-about {
     width: 245px;
@@ -403,22 +334,6 @@ ul{
     color: #5e5e5e;
     font-size: 22px;
 }
-/* .icon-block {
-    width: 59px;
-    height: 59px;
-    background-color: #5863F8;
-    border-radius: 50px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-} */
-
 .block-1-about-about p {
     width: 220px;
     text-align: center;
@@ -430,11 +345,12 @@ ul{
     max-width: 332px;
     width: 100%;
 }
+.name-about {
+    margin-bottom: 25px;
+}
 
 /* contact us */
 /* section */
-
-
 .fa-location-arrow {
     color: #FFFFFF;
     font-size: small;
@@ -443,8 +359,6 @@ ul{
 .label-text {
     color: blue;
 }
-
-
 .input2-block {
     width: 452px;
     height: 60px;
@@ -462,11 +376,8 @@ ul{
     padding: 30px;
 }
 .form2-box {
-
     display: flex;
     justify-content: center;
-   
-    
 }
 .button2-block {
     width: 452px;
@@ -477,32 +388,21 @@ ul{
 }
 .form-text {
     width: 100%;
-    /* margin-left: 100px; */
-    margin-bottom: 30px;
-    
-    
-    
+    margin-bottom: 30px;   
 }
 .form-text1 {
     color: blue;
     text-transform: uppercase;
-    
 }
 .form-title {
     font-weight: bold;
     font-size: 30px;
     margin-top: 15px;
-    text-align: center;
-    
-    
-    
+    text-align: center;   
 }
 .container2-2 {
     width: 100%;
     margin-bottom: 60px;
-    
-    
-
 }
 
 .textarea-block {
@@ -528,7 +428,6 @@ ul{
 /* registration form */
 .reg-section {
     width: 100%;
-    /* flex-wrap: wrap; */
 }
 .reg-title {
     margin-left: 170px;
@@ -550,10 +449,8 @@ ul{
     color: rgb(69, 118, 209);
 }
 .reg-div {
-    margin-bottom: 25px;
-    
+    margin-bottom: 25px;  
 }
-
 
 .reg-input-block {
     max-width: 900px;
@@ -564,7 +461,6 @@ ul{
     max-width: 900px;
     width: 100%;
     height: 40px;
-   
 }
 
 .reg-submit {
@@ -615,14 +511,8 @@ ul{
 }
 
 
-
-
-
-
 /* registration form */
-/* .r-section {
-    width: 100%;
-} */
+
 .r-title {
     margin-left: 170px;
     margin-top: 60px;
@@ -632,9 +522,6 @@ ul{
     color: rgb(69, 118, 209);
     font-weight: bold;
 }
-
-
-
 
 .r-input-block {
     max-width: 900px;
@@ -693,9 +580,6 @@ ul{
     color: rgb(69, 118, 209);
     font-weight: bold;
 }
-
-
-
 .image-footer {
     width: 100%;
 }
@@ -711,7 +595,6 @@ ul{
     max-width: 200px;
     width: 100%;
 }
-
 .footer-list1 {
     display: flex;
     flex-direction: column;
@@ -742,7 +625,6 @@ ul{
     height: 4px;
     background-color: tomato;
     display: inline-block;
-
     vertical-align: middle;
     margin-right: 10px;
 }
@@ -763,7 +645,6 @@ ul{
 
 /* logn-in video container */
 .video-container {
-    /* max-width: 1800px; */
     width: 100%;
     margin: 0 auto;
     display: inline-flex;
@@ -774,8 +655,7 @@ ul{
     max-width: 590px;
     width: 100%;
     margin-left:20px;
-    margin-right: 20px;
-    
+    margin-right: 20px; 
 }
 .video-wraper {
     max-width: 590px;
@@ -790,7 +670,6 @@ ul{
     width: 100%;
     height: 5px;
     background-color: rgb(230, 228, 228);
-    /* margin-top: 50px; */
 }
 .video-title {
     font-size: 22px;
