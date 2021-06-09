@@ -137,6 +137,7 @@ ul{
     padding: 25px;
     line-height: 25px;
     
+    
 }
 
 .box-1-text h4 {
@@ -146,15 +147,17 @@ ul{
     color: rgb(117, 108, 105);
 }
 .box-1-text p {
-    font-size: 16px;
+    font-size: 18px;
     text-align: justify;
-    height: 140px;  
+    height: 100px;  
 }
+
 
 .button {
     display: flex;
     margin-left: 25px;
     margin-bottom: 15px;
+    align-items: flex-start;
     /* align-items: flex-end; */
     
 }
