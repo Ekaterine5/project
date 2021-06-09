@@ -263,11 +263,78 @@
       margin-right: 20px;
 }
 } 
+/* contact */
+@media (max-width: 1260px) {
+  .map {
+    width: 428px;
+    height: 232px;
+}
+}
+@media (max-width: 957px) {
+  .container-contact{
+    flex-direction: column;
+    align-items: center;
+}
+  .left-block-contact {
+    margin: 0 auto;
+}
+.map {
+  margin-top: 20px;
+}
+}
 
-/* about us - section-3 */
-/* @media (max-width: 798px) {
-  .container {
-      flex-direction: column;
-      align-items: center;
+
+@media (max-width: 480px) {
+  .map {
+    width: 214px;
+    height: 116px;
   }
-} */
+} 
+
+@media (max-width: 1270px) {
+  
+.textarea-block {
+    width: 450px;
+    /* height: 288px;
+    border: none;
+    resize: none;
+    background-color: lightgray; 
+    padding: 30px; */
+} 
+}
+
+@media (max-width: 957px) {
+  .input2-block {
+    width: 152px;
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.textarea-block {
+    width: 250px;
+    height: 188px;
+    background-color: lightgray; 
+    padding: 30px;
+} 
+.button2-block {
+  width: 152px;
+  height: 40px;
+}
+}
+@media (max-width: 480px) {
+  .form2-box {
+    flex-direction: column;
+    align-items: center;
+  }
+  .input2-block {
+    width: 250px;
+    height: 40px; 
+}
+.textarea-block {
+   margin: 0 auto;
+} 
+.button2-block {
+  width: 252px;
+  height: 40px;
+}
+}
