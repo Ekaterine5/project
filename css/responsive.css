@@ -213,6 +213,10 @@
   margin-left: 50px;
   margin-top: 60px;
 }
+.video-wraper {
+  display: none;
+}
+
 }
 
 /* home */
