@@ -209,9 +209,16 @@
     -ms-flex-align: center;
         align-items: center;
 }
+/* .s-form-left-block {
+  max-width: 300px;
+  width: 100%;
+  margin-left:5px;
+  margin-right: 5px; 
+} */
 .s-wraper {
   margin: 0 auto;
   margin-bottom: 50px;
+  width: 300px;
 }
 .video-title {
   text-align: center;
@@ -232,7 +239,8 @@
       -ms-flex-pack: center;
           justify-content: center;
           height: 157px;
-}
+  width: 310px;
+  }
 }
 
 /* home */
