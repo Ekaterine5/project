@@ -5,6 +5,13 @@
 * Browsers: last 4 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /* header */
 @media (max-width: 956px){
   .wrapper, 
@@ -217,9 +224,14 @@
   width: 280px;
   height: 157px;
 }
-/* .video-wraper {
-  display: none;
-} */
+.video-wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 }
 
 /* home */
@@ -380,4 +392,4 @@ height: 40px;
     bottom: 50px;
     font-size: 12px;
   }
-  }
+}
