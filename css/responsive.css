@@ -213,9 +213,13 @@
   margin-left: 50px;
   margin-top: 60px;
 }
-.video-wraper {
-  display: none;
+.video-size {
+  width: 280px;
+  height: 157px;
 }
+/* .video-wraper {
+  display: none;
+} */
 }
 
 /* home */
