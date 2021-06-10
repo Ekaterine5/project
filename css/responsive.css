@@ -216,7 +216,6 @@
 .video-wraper {
   display: none;
 }
-
 }
 
 /* home */
@@ -370,3 +369,11 @@ width: 252px;
 height: 40px;
 }
 }
+
+@media (max-width: 1040px) {
+  .copyright {
+    right: 50px;
+    bottom: 50px;
+    font-size: 12px;
+  }
+  }
